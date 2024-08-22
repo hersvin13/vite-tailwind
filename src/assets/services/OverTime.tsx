@@ -1,0 +1,112 @@
+const overTimes = [
+  {
+    id: 1001,
+    schedule: 'Same Day',
+    document_no: 'OT6324985348',
+    overtime_date: '07-25-2024',
+    overtime_hours: '06:00 PM - 11:00 PM',
+    hours_no: '5 hours',
+    transaction_date: '07-24-2024',
+    status: 'Pending',
+  },
+  {
+    id: 1002,
+    schedule: 'Same Day',
+    document_no: 'OT12445875947',
+    overtime_date: '07-30-2024',
+    overtime_hours: '06:00 PM - 11:00 PM',
+    hours_no: '5 hours',
+    transaction_date: '07-20-2024',
+    status: 'Declined',
+  },
+  {
+    id: 1003,
+    schedule: 'Same Day',
+    document_no: 'OT2298384737',
+    overtime_date: '07-22-2024',
+    overtime_hours: '06:00 PM - 10:00 PM',
+    hours_no: '4 hours',
+    transaction_date: '05-20-2024',
+    status: 'Approved',
+  },
+  {
+    id: 1004,
+    schedule: 'Same Day',
+    document_no: 'OT8857246725',
+    overtime_date: '07-12-2024',
+    overtime_hours: '06:00 PM - 11:00 PM',
+    hours_no: '5 hours',
+    transaction_date: '06-20-2024',
+    status: 'Approved',
+  },
+  {
+    id: 1005,
+    schedule: 'Same Day',
+    document_no: 'OT1942557638',
+    overtime_date: '07-26-2024',
+    overtime_hours: '06:00 PM - 11:00 PM',
+    hours_no: '5 hours',
+    transaction_date: '07-25-2024',
+    status: 'Pending',
+  },
+  {
+    id: 1006,
+    schedule: 'Same Day',
+    document_no: 'OT15628437355',
+    overtime_date: '07-18-2024',
+    overtime_hours: '06:00 PM - 10:00 PM',
+    hours_no: '4 hours',
+    transaction_date: '07-30-2024',
+    status: 'Declined',
+  },
+  {
+    id: 1007,
+    schedule: 'Same Day',
+    document_no: 'OT88243263922',
+    overtime_date: '07-24-2024',
+    overtime_hours: '06:00 PM - 10:00 PM',
+    hours_no: '4 hours',
+    transaction_date: '07-24-2024',
+    status: 'Approved',
+  },
+  {
+    id: 1008,
+    schedule: 'Same Day',
+    document_no: 'OT51247364485',
+    overtime_date: '07-22-2024',
+    overtime_hours: '06:00 PM - 11:00 PM',
+    hours_no: '5 hours',
+    transaction_date: '07-25-2024',
+    status: 'Declined',
+  },
+  {
+    id: 1009,
+    schedule: 'Same Day',
+    document_no: 'OT9972654736',
+    overtime_date: '07-28-2024',
+    overtime_hours: '06:00 PM - 10:00 PM',
+    hours_no: '4 hours',
+    transaction_date: '07-24-2024',
+    status: 'Pending',
+  },
+  {
+    id: 1010,
+    schedule: 'Same Day',
+    document_no: 'OT4425872645',
+    overtime_date: '07-21-2024',
+    overtime_hours: '06:00 PM - 10:00 PM',
+    hours_no: '4 hours',
+    transaction_date: '07-20-2024',
+    status: 'Approved',
+  },
+]
+
+export const OverTimeService = {
+  getOverTime() {
+    return new Promise((resolve) => {
+      setTimeout(() => {
+        resolve(overTimes)
+      }, 1000)
+    })
+  },
+}

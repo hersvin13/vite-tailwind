@@ -1,0 +1,26 @@
+.fc--button.fc-button.fc-button-primary {
+  display: none;
+}
+button.fc-dayGridMonth-button.fc-button.fc-button-primary.fc-button-active,
+button.fc-dayGridWeek-button.fc-button.fc-button-primary.fc-button-active,
+button.fc-dayGridDay-button.fc-button.fc-button-primary.fc-button-active,
+button.fc-listWeek-button.fc-button.fc-button-primary.fc-button-active {
+  color: black;
+}
+
+button.fc-multiMonthYear-button.fc-button.fc-button-primary,
+.fc-toolbar-chunk .fc-button-group button.fc-dayGridMonth-button.fc-button,
+.fc-toolbar-chunk .fc-button-group button.fc-dayGridWeek-button.fc-button,
+.fc-toolbar-chunk .fc-button-group button.fc-dayGridDay-button.fc-button,
+.fc-toolbar-chunk .fc-button-group button.fc-listWeek-button.fc-button,
+.fc-toolbar-chunk button.fc-today-button.fc-button.fc-button-primary,
+.fc-toolbar-chunk .fc-button-group button.fc-next-button.fc-button,
+.fc-toolbar-chunk .fc-button-group button.fc-prev-button.fc-button {
+  background-color: #ff924b;
+  border: none;
+}
+
+button.fc-multiMonthYear-button.fc-button.fc-button-primary.fc-button-active {
+  color: black;
+  background-color: #ff924b;
+}
