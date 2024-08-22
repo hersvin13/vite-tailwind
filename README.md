@@ -1,0 +1,1 @@
+# vite-hrdotnet-v2
